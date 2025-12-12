@@ -63,18 +63,11 @@
     "text": "This chapter will introduce essential data structures and basic data manipulation.\n\n\n\nLists, dictionaries, and tuples\n\nPandas DataFrames\n\nImporting, cleaning, and selecting data\n\n\n\n\n(links will be added later)"
   },
   {
-    "objectID": "textbook_src/week03_main.html#key-topics",
-    "href": "textbook_src/week03_main.html#key-topics",
+    "objectID": "textbook_src/week03_main.html#week-3-overview",
+    "href": "textbook_src/week03_main.html#week-3-overview",
     "title": "Week 3 – Data Structures & Pandas",
     "section": "",
-    "text": "Lists, dictionaries, and tuples\n\nPandas DataFrames\n\nImporting, cleaning, and selecting data"
-  },
-  {
-    "objectID": "textbook_src/week03_main.html#code-for-this-week",
-    "href": "textbook_src/week03_main.html#code-for-this-week",
-    "title": "Week 3 – Data Structures & Pandas",
-    "section": "",
-    "text": "(links will be added later)"
+    "text": "This chapter will introduce essential data structures and basic data manipulation.\n\n\n\nLists, dictionaries, and tuples\n\nPandas DataFrames\n\nImporting, cleaning, and selecting data\n\n\n\n\n(links will be added later)"
   },
   {
     "objectID": "textbook_src/week01_main.html",
@@ -84,25 +77,53 @@
     "text": "This chapter will introduce the core concepts of analytics and artificial intelligence.\nA more detailed draft will be added soon.\n\n\n\nWhat we mean by “analytics”\nWhat we mean by “AI”\nData → Model → Decision (the high-level pipeline)\n\n\n\n\n(links will be added later)"
   },
   {
-    "objectID": "textbook_src/week01_main.html#key-topics",
-    "href": "textbook_src/week01_main.html#key-topics",
+    "objectID": "textbook_src/week01_main.html#week-1-overview",
+    "href": "textbook_src/week01_main.html#week-1-overview",
     "title": "Week 1 – What is Analytics & AI?",
     "section": "",
-    "text": "What we mean by “analytics”\nWhat we mean by “AI”\nData → Model → Decision (the high-level pipeline)"
-  },
-  {
-    "objectID": "textbook_src/week01_main.html#code-for-this-week",
-    "href": "textbook_src/week01_main.html#code-for-this-week",
-    "title": "Week 1 – What is Analytics & AI?",
-    "section": "",
-    "text": "(links will be added later)"
+    "text": "This chapter will introduce the core concepts of analytics and artificial intelligence.\nA more detailed draft will be added soon.\n\n\n\nWhat we mean by “analytics”\nWhat we mean by “AI”\nData → Model → Decision (the high-level pipeline)\n\n\n\n\n(links will be added later)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Foundations of Analytics & AI",
     "section": "",
-    "text": "Foundations of Analytics & AI\n\nCourse Textbook\nWelcome to the online textbook for the course. It is organized to provide a clear, structured pathway through the foundational ideas and practical techniques of analytics and artificial intelligence. Each week’s chapter includes:\n\nAn explaination of the key/core concepts and our objectives for the week.\n\nDemonstrations (where applicable) and worked examples\n\nLinks to downloadable code associated with the topics in the lectures.\n\nPractice sections and applied exercises\n\nShort conceptual notes to reinforce key ideas\n\nThis site is designed to complement the in-class experience while remaining accessible for self-study. All materials can be viewed online and code files can be downloaded from the course repository. The code in github and on Canvas is the same. The data for this course is stored in Canvas.\n\n\n\n\nHow to Use This Textbook\nThe material is organized into three types:\n\n1. Weekly Modules\nThese chapters follow the course schedule and lectures. The readings from the text are not identical to the lectures, but they are close. The readings introduce new concepts, connect them to analytics and AI practice, and provide examples to run independently.\nStart here:\n\nWeek 1 – What is Analytics & AI?\n\nWeek 2 – Python Basics\n\nWeek 3 – Data Structures & Pandas\n\nWeek 4 – From Data to Models\n\n\n\n\n\n2. Practical Guides (Task-Oriented Documentation)\nThese pages provide focused instructions for installing tools, configuring environments, and resolving common issues.\n\nHow to Install Python\n\nInstalling the Course requirements.txt\n\nUsing Google Colab\n\nThese guides remain relevant throughout the semester and may be updated as tools evolve.\n\n\n\n\nCourse Learning Philosophy\nThis textbook is built around two related objectives:\n\nAI Literacy: developing conceptual understanding of modern analytics and AI systems. How they work, where they succeed, and where they sometimes fail.\n\nJob-Relevant Skills: Translating these concepts into practical, executable workflows using Python and contemporary tools.\n\nEach week reinforces both trajectories: one conceptual, one applied.\n\n\n\nAccessing Code and Data\nAll example code for the course is maintained in the main GitHub repository:\n\nCode folder: code/ (available in GitHub and Canvas) Data folder: data/ (available in Canvas only)\n\nYou may download the entire repository as a .zip file or clone it directly.\nLinks to specific scripts and notebooks appear at the end of each week’s chapter.\n\n\n\nNeed Help?\nIf you encounter technical issues with installation, environments, or package setup, consult the Guides section using the navigation bar above. These pages provide step-by-step instructions tailored for this course."
+    "text": "Welcome to the online textbook for the course. It is organized to provide a clear, structured pathway through the foundational ideas and practical techniques of analytics and artificial intelligence. Each week’s chapter includes:\n\nAn explaination of the key/core concepts and our objectives for the week.\n\nDemonstrations (where applicable) and worked examples\n\nLinks to downloadable code associated with the topics in the lectures.\n\nPractice sections and applied exercises\n\nShort conceptual notes to reinforce key ideas\n\nThis site is designed to complement the in-class experience while remaining accessible for self-study. All materials can be viewed online and code files can be downloaded from the course repository. The code in github and on Canvas is the same. The data for this course is stored in Canvas."
+  },
+  {
+    "objectID": "index.html#course-textbook",
+    "href": "index.html#course-textbook",
+    "title": "Foundations of Analytics & AI",
+    "section": "",
+    "text": "Welcome to the online textbook for the course. It is organized to provide a clear, structured pathway through the foundational ideas and practical techniques of analytics and artificial intelligence. Each week’s chapter includes:\n\nAn explaination of the key/core concepts and our objectives for the week.\n\nDemonstrations (where applicable) and worked examples\n\nLinks to downloadable code associated with the topics in the lectures.\n\nPractice sections and applied exercises\n\nShort conceptual notes to reinforce key ideas\n\nThis site is designed to complement the in-class experience while remaining accessible for self-study. All materials can be viewed online and code files can be downloaded from the course repository. The code in github and on Canvas is the same. The data for this course is stored in Canvas."
+  },
+  {
+    "objectID": "index.html#how-to-use-this-textbook",
+    "href": "index.html#how-to-use-this-textbook",
+    "title": "Foundations of Analytics & AI",
+    "section": "How to Use This Textbook",
+    "text": "How to Use This Textbook\nThe material is organized into three types:\n\n1. Weekly Modules\nThese chapters follow the course schedule and lectures. The readings from the text are not identical to the lectures, but they are close. The readings introduce new concepts, connect them to analytics and AI practice, and provide examples to run independently.\nStart here:\n\nWeek 1 – What is Analytics & AI?\n\nWeek 2 – Python Basics\n\nWeek 3 – Data Structures & Pandas\n\nWeek 4 – From Data to Models\n\n\n\n\n\n2. Practical Guides (Task-Oriented Documentation)\nThese pages provide focused instructions for installing tools, configuring environments, and resolving common issues.\n\nHow to Install Python\n\nInstalling the Course requirements.txt\n\nUsing Google Colab\n\nThese guides remain relevant throughout the semester and may be updated as tools evolve."
+  },
+  {
+    "objectID": "index.html#course-learning-philosophy",
+    "href": "index.html#course-learning-philosophy",
+    "title": "Foundations of Analytics & AI",
+    "section": "Course Learning Philosophy",
+    "text": "Course Learning Philosophy\nThis textbook is built around two related objectives:\n\nAI Literacy: developing conceptual understanding of modern analytics and AI systems. How they work, where they succeed, and where they sometimes fail.\n\nJob-Relevant Skills: Translating these concepts into practical, executable workflows using Python and contemporary tools.\n\nEach week reinforces both trajectories: one conceptual, one applied."
+  },
+  {
+    "objectID": "index.html#accessing-code-and-data",
+    "href": "index.html#accessing-code-and-data",
+    "title": "Foundations of Analytics & AI",
+    "section": "Accessing Code and Data",
+    "text": "Accessing Code and Data\nAll example code for the course is maintained in the main GitHub repository:\n\nCode folder: code/ (available in GitHub and Canvas) Data folder: data/ (available in Canvas only)\n\nYou may download the entire repository as a .zip file or clone it directly.\nLinks to specific scripts and notebooks appear at the end of each week’s chapter."
+  },
+  {
+    "objectID": "index.html#need-help",
+    "href": "index.html#need-help",
+    "title": "Foundations of Analytics & AI",
+    "section": "Need Help?",
+    "text": "Need Help?\nIf you encounter technical issues with installation, environments, or package setup, consult the Guides section using the navigation bar above. These pages provide step-by-step instructions tailored for this course."
   },
   {
     "objectID": "textbook_src/week02_main.html",
@@ -112,18 +133,11 @@
     "text": "This chapter will introduce Python fundamentals needed for the course.\n\n\n\nVariables and data types\n\nControl flow (if/else, loops)\n\nBasic functions\n\n\n\n\n(links will be added later)"
   },
   {
-    "objectID": "textbook_src/week02_main.html#key-topics",
-    "href": "textbook_src/week02_main.html#key-topics",
+    "objectID": "textbook_src/week02_main.html#week-2-overview",
+    "href": "textbook_src/week02_main.html#week-2-overview",
     "title": "Week 2 – Python Basics",
     "section": "",
-    "text": "Variables and data types\n\nControl flow (if/else, loops)\n\nBasic functions"
-  },
-  {
-    "objectID": "textbook_src/week02_main.html#code-for-this-week",
-    "href": "textbook_src/week02_main.html#code-for-this-week",
-    "title": "Week 2 – Python Basics",
-    "section": "",
-    "text": "(links will be added later)"
+    "text": "This chapter will introduce Python fundamentals needed for the course.\n\n\n\nVariables and data types\n\nControl flow (if/else, loops)\n\nBasic functions\n\n\n\n\n(links will be added later)"
   },
   {
     "objectID": "textbook_src/week04_main.html",
@@ -133,18 +147,11 @@
     "text": "This chapter will introduce the foundational ideas behind building predictive models.\n\n\n\nTrain/test split\n\nLinear models\n\nModel evaluation\n\n\n\n\n(links will be added later)"
   },
   {
-    "objectID": "textbook_src/week04_main.html#key-topics",
-    "href": "textbook_src/week04_main.html#key-topics",
+    "objectID": "textbook_src/week04_main.html#week-4-overview",
+    "href": "textbook_src/week04_main.html#week-4-overview",
     "title": "Week 4 – From Data to Models",
     "section": "",
-    "text": "Train/test split\n\nLinear models\n\nModel evaluation"
-  },
-  {
-    "objectID": "textbook_src/week04_main.html#code-for-this-week",
-    "href": "textbook_src/week04_main.html#code-for-this-week",
-    "title": "Week 4 – From Data to Models",
-    "section": "",
-    "text": "(links will be added later)"
+    "text": "This chapter will introduce the foundational ideas behind building predictive models.\n\n\n\nTrain/test split\n\nLinear models\n\nModel evaluation\n\n\n\n\n(links will be added later)"
   },
   {
     "objectID": "guides/install_python.html",
