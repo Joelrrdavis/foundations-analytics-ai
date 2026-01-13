@@ -49,7 +49,6 @@ They combine explanation with practical Python examples.
 - [**Chapter 8 — Simulation and Synthetic Data**](textbook_src/ch8_simulation_synthetic_data.qmd)  
 - [**Chapter 9 — Visualization: From Data to Insight**](textbook_src/ch9_visualization_from_data_to_insight.qmd)
 
-These skills are used repeatedly in later chapters.  
 
 Readers already familiar with Python may skim or skip based on experience.
 
