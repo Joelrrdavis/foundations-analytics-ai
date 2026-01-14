@@ -1,13 +1,13 @@
 ---
-title: "Terminal & PowerShell Basics for This Course"
+title: "Terminal & PowerShell Basics for This Text"
 ---
 
 ## Why this guide exists
 
-Many students in this course have **never used the terminal (Mac)** or **PowerShell (Windows)** before.  
+Many people have **never used the terminal (Mac)** or **PowerShell (Windows)** before.  
 That is completely normal.
 
-This short guide teaches **only what you need** to successfully complete the course setup and run Python code later.
+This short guide teaches **only what you need** to successfully complete the setup and run Python code later. It is not a complete rundown of this interface. 
 
 You do **not** need to memorize commands or understand how your computer works internally.  
 You just need to be comfortable running a small number of commands and recognizing when something worked.
@@ -76,12 +76,6 @@ You have two common options:
 - Right-click in a folder  
 - Choose **Open in Terminal** or **Open PowerShell here**  
 
----
-
-::: {.callout-note}
-For this course, **Terminal (Mac)** and **PowerShell (Windows)** are equivalent.  
-All commands will be clearly labeled for your system.
-:::
 
 ---
 
@@ -144,8 +138,7 @@ The computer will respond immediately.
 - **Windows:** `Ctrl + C` (copy), `Ctrl + V` (paste)
 
 ::: {.callout-tip}
-It is perfectly fine to **copy and paste commands** from course materials.  
-This is not cheating; it is standard practice.
+It is perfectly fine to **copy and paste commands**, it is not the way *everyone* learns, but it can be a great way to just get started. But becomew an expert like this. Just a solid user. 
 :::
 
 ---
@@ -307,7 +300,7 @@ This safely stops the command.
 ### I’m nervous I’ll break something
 
 ::: {.callout-important}
-You are **very unlikely** to damage your computer by running commands in this course.
+You are **very unlikely** to damage your computer by running commands in this guide.
 :::
 
 We do not:  
@@ -319,7 +312,7 @@ We do not:
 
 ### Final confidence check
 
-Before moving on to the course setup guide, make sure you can:
+Before moving on to the setup guide, make sure you can:
 
 - open Terminal or PowerShell
 - run a command

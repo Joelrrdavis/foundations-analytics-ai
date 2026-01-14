@@ -45,7 +45,7 @@ By the end of this guide/walkthrough, you should have:
 4. A quick health check confirming Python runs
 
 ::: {.callout-tip}
-If you are working in a class project folder, you can apply these settings at the **workspace level** so the course environment behaves consistently in that folder.
+If you are working in a class project folder, you can apply these settings at the **workspace level** so the environment behaves consistently in that folder.
 :::
 
 ---
@@ -130,7 +130,7 @@ Even if VS Code is stable, your code can still fail if VS Code uses the wrong in
    - macOS: `Cmd + Shift + P`  
    - Windows: `Ctrl + Shift + P`  
 2. Choose: **Python: Select Interpreter**
-3. Select the interpreter you want (The course suggests a UV solution):
+3. Select the interpreter you want (This text suggests a UV solution):
    - System Python (if required), or
    - A project environment interpreter (commonly a `.venv` folder)
 
@@ -174,9 +174,9 @@ Do not update VS Code right before an exam, That may lead to unexpectected and f
 
 ---
 
-## Optional: Apply These Settings to a Course Workspace Folder
+## Optional: Apply These Settings to a Workspace Folder
 
-If you have a course project folder (recommended), you can apply settings to that folder only.
+If you have a project folder (recommended), you can apply settings to that folder only.
 
 ### Workspace settings file
 

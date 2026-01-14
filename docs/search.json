@@ -2,133 +2,133 @@
   {
     "objectID": "guides/using_colab.html",
     "href": "guides/using_colab.html",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "",
     "text": "Google Colab is a free, cloud-based environment for running Python notebooks.\nYou can use it from any computer without installing Python locally. It is especially helpful if:\n\nYour computer cannot install packages reliably\n\nYou are troubleshooting your Python installation\n\nYou want quick access to a working Python environment\n\nThis guide explains how to open Colab, upload or access notebooks, install packages, work with files, and download your work."
   },
   {
     "objectID": "guides/using_colab.html#overview",
     "href": "guides/using_colab.html#overview",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "",
     "text": "Google Colab is a free, cloud-based environment for running Python notebooks.\nYou can use it from any computer without installing Python locally. It is especially helpful if:\n\nYour computer cannot install packages reliably\n\nYou are troubleshooting your Python installation\n\nYou want quick access to a working Python environment\n\nThis guide explains how to open Colab, upload or access notebooks, install packages, work with files, and download your work."
   },
   {
     "objectID": "guides/using_colab.html#what-is-google-colab",
     "href": "guides/using_colab.html#what-is-google-colab",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "1. What Is Google Colab?",
-    "text": "1. What Is Google Colab?\nGoogle Colab provides:\n\nA hosted Python runtime (no setup required)\n\nBuilt-in Jupyter-like notebook interface\n\nFree GPU/TPU access (not required for this course but available)\n\nIntegration with Google Drive\n\nColab notebooks use the .ipynb format, but you can also copy/paste Python code from .py files."
+    "text": "1. What Is Google Colab?\nGoogle Colab provides:\n\nA hosted Python runtime (no setup required)\n\nBuilt-in Jupyter-like notebook interface\n\nFree GPU/TPU access\n\nIntegration with Google Drive\n\nColab notebooks use the .ipynb format, but you can also copy/paste Python code from .py files."
   },
   {
     "objectID": "guides/using_colab.html#opening-google-colab",
     "href": "guides/using_colab.html#opening-google-colab",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "2. Opening Google Colab",
     "text": "2. Opening Google Colab\nGo to:\nhttps://colab.research.google.com/\nYou will see a window prompting you to:\n\nStart a new notebook\n\nUpload a .ipynb file\n\nOpen from Google Drive\n\nOpen from GitHub"
   },
   {
     "objectID": "guides/using_colab.html#option-a-create-a-new-notebook",
     "href": "guides/using_colab.html#option-a-create-a-new-notebook",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "3. Option A — Create a New Notebook",
-    "text": "3. Option A — Create a New Notebook\n\nGo to File → New Notebook.\n\nA new notebook will open with a default Python environment.\n\nYou can copy/paste code from the course textbook or .py files.\n\nUse Shift + Enter to run a cell."
+    "text": "3. Option A — Create a New Notebook\n\nGo to File → New Notebook.\n\nA new notebook will open with a default Python environment.\n\nYou can copy/paste code from the textbook or .py files.\n\nUse Shift + Enter to run a cell."
   },
   {
     "objectID": "guides/using_colab.html#option-b-upload-a-notebook-from-your-computer",
     "href": "guides/using_colab.html#option-b-upload-a-notebook-from-your-computer",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "4. Option B — Upload a Notebook from Your Computer",
     "text": "4. Option B — Upload a Notebook from Your Computer\n\nGo to File → Upload Notebook\n\nSelect the notebook you downloaded\n\nColab will open it in a new tab"
   },
   {
     "objectID": "guides/using_colab.html#option-c-open-a-notebook-directly-from-github",
     "href": "guides/using_colab.html#option-c-open-a-notebook-directly-from-github",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "5. Option C — Open a Notebook Directly from GitHub",
-    "text": "5. Option C — Open a Notebook Directly from GitHub\n\nGo to File → Open Notebook\n\nChoose the GitHub tab\n\nPaste the repository URL\n\nSelect the notebook you want to open\n\nExample:\nhttps://github.com/&lt;your-username&gt;/undergrad-ai-course"
+    "text": "5. Option C — Open a Notebook Directly from GitHub\n\nGo to File → Open Notebook\n\nChoose the GitHub tab\n\nPaste the repository URL\n\nSelect the notebook you want to open\n\nExample:\nhttps://github.com/&lt;your-username&gt;/undergrad-ai-text"
   },
   {
     "objectID": "guides/using_colab.html#installing-packages-in-colab",
     "href": "guides/using_colab.html#installing-packages-in-colab",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "6. Installing Packages in Colab",
     "text": "6. Installing Packages in Colab\nColab comes with many Python packages preinstalled.\nTo install additional packages:\n!pip install seaborn\nOr install from a requirements file:\n!pip install -r requirements.txt"
   },
   {
     "objectID": "guides/using_colab.html#working-with-files",
     "href": "guides/using_colab.html#working-with-files",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "7. Working with Files",
     "text": "7. Working with Files\n\nTemporary Upload\nfrom google.colab import files\nuploaded = files.upload()\n\n\nMount Google Drive\nfrom google.colab import drive\ndrive.mount('/content/drive')\nYour Drive will appear at:\n/content/drive/MyDrive/"
   },
   {
     "objectID": "guides/using_colab.html#saving-your-work",
     "href": "guides/using_colab.html#saving-your-work",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "8. Saving Your Work",
     "text": "8. Saving Your Work\n\nSave to Drive\nFile → Save a copy in Drive\n\n\nDownload\nFile → Download → .ipynb\nFile → Download → .py"
   },
   {
     "objectID": "guides/using_colab.html#limitations-of-colab",
     "href": "guides/using_colab.html#limitations-of-colab",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "9. Limitations of Colab",
     "text": "9. Limitations of Colab\n\nSessions time out\n\nTemporary files are deleted\n\nPackages must be reinstalled each session\n\nInternet connection required"
   },
   {
     "objectID": "guides/using_colab.html#summary",
     "href": "guides/using_colab.html#summary",
-    "title": "Using Google Colab for This Course",
+    "title": "Using Google Colab - Rapid Intro",
     "section": "10. Summary",
-    "text": "10. Summary\nGoogle Colab allows you to:\n\nRun Python without installing anything\n\nUpload/open notebooks\n\nInstall packages\n\nWork with Drive\n\nDownload your work\n\nIt is a useful fallback or complementary environment for this course."
+    "text": "10. Summary\nGoogle Colab allows you to:\n\nRun Python without installing anything\n\nUpload/open notebooks\n\nInstall packages\n\nWork with Drive\n\nDownload your work\n\nIt is a useful fallback or complementary environment for this text."
   },
   {
     "objectID": "guides/setup_python_uv_vscode.html",
     "href": "guides/setup_python_uv_vscode.html",
-    "title": "Course Setup Guide: Python, uv, and VS Code",
+    "title": "Setup Guide: Python, uv, and VS Code",
     "section": "",
-    "text": "This guide walks you through everything required to get set up for this course, end to end:\n\nInstalling Python\nInstalling uv\nInstalling and configuring VS Code\nCreating a project-based Python environment\nRunning code successfully\n\nThis is a one-time setup. Once completed, you will reuse this workflow all semester.\n\n\n\n\n\n\nNote\n\n\n\nRead this once, then follow it top-to-bottom.\nMost setup problems happen when steps are skipped or done out of order.\n\n\n\n\n\nThis guide assumes you know how to:\n- open Terminal (Mac) or PowerShell (Windows)\n- run a command\n- copy/paste commands\n- recognize when a command succeeds or fails\nIf not, complete the short Terminal Basics video and guide before continuing.\n\n\n\nBy the end of this guide, you should have a project folder that looks like this:\nCLASS_FOLDER/\n├── pyproject.toml\n├── .venv/\n└── hello.py\nAnd you should be able to: - open this folder in VS Code - run Python code using the project environment - install packages in a repeatable way\n\n\n\n\n\n\nTip\n\n\n\nIf your folder does not look like this at the end, stop and fix it before moving on."
+    "text": "This guide walks you through everything required to get set up, end to end:\n\nInstalling Python\nInstalling uv\nInstalling and configuring VS Code\nCreating a project-based Python environment\nRunning code successfully\n\nThis is a one-time setup. Once completed, you will reuse this workflow all semester.\n\n\n\n\n\n\nNote\n\n\n\nRead this once, then follow it top-to-bottom.\nMost setup problems happen when steps are skipped or done out of order.\n\n\n\n\n\nThis guide assumes you know how to:\n- open Terminal (Mac) or PowerShell (Windows)\n- run a command\n- copy/paste commands\n- recognize when a command succeeds or fails\nIf not, complete the short Terminal Basics video and guide before continuing.\n\n\n\nBy the end of this guide, you should have a project folder that looks like this:\nCLASS_FOLDER/\n├── pyproject.toml\n├── .venv/\n└── hello.py\nAnd you should be able to: - open this folder in VS Code - run Python code using the project environment - install packages in a repeatable way\n\n\n\n\n\n\nTip\n\n\n\nIf your folder does not look like this at the end, stop and fix it before moving on."
   },
   {
     "objectID": "guides/setup_python_uv_vscode.html#overview",
     "href": "guides/setup_python_uv_vscode.html#overview",
-    "title": "Course Setup Guide: Python, uv, and VS Code",
+    "title": "Setup Guide: Python, uv, and VS Code",
     "section": "",
-    "text": "This guide walks you through everything required to get set up for this course, end to end:\n\nInstalling Python\nInstalling uv\nInstalling and configuring VS Code\nCreating a project-based Python environment\nRunning code successfully\n\nThis is a one-time setup. Once completed, you will reuse this workflow all semester.\n\n\n\n\n\n\nNote\n\n\n\nRead this once, then follow it top-to-bottom.\nMost setup problems happen when steps are skipped or done out of order.\n\n\n\n\n\nThis guide assumes you know how to:\n- open Terminal (Mac) or PowerShell (Windows)\n- run a command\n- copy/paste commands\n- recognize when a command succeeds or fails\nIf not, complete the short Terminal Basics video and guide before continuing.\n\n\n\nBy the end of this guide, you should have a project folder that looks like this:\nCLASS_FOLDER/\n├── pyproject.toml\n├── .venv/\n└── hello.py\nAnd you should be able to: - open this folder in VS Code - run Python code using the project environment - install packages in a repeatable way\n\n\n\n\n\n\nTip\n\n\n\nIf your folder does not look like this at the end, stop and fix it before moving on."
+    "text": "This guide walks you through everything required to get set up, end to end:\n\nInstalling Python\nInstalling uv\nInstalling and configuring VS Code\nCreating a project-based Python environment\nRunning code successfully\n\nThis is a one-time setup. Once completed, you will reuse this workflow all semester.\n\n\n\n\n\n\nNote\n\n\n\nRead this once, then follow it top-to-bottom.\nMost setup problems happen when steps are skipped or done out of order.\n\n\n\n\n\nThis guide assumes you know how to:\n- open Terminal (Mac) or PowerShell (Windows)\n- run a command\n- copy/paste commands\n- recognize when a command succeeds or fails\nIf not, complete the short Terminal Basics video and guide before continuing.\n\n\n\nBy the end of this guide, you should have a project folder that looks like this:\nCLASS_FOLDER/\n├── pyproject.toml\n├── .venv/\n└── hello.py\nAnd you should be able to: - open this folder in VS Code - run Python code using the project environment - install packages in a repeatable way\n\n\n\n\n\n\nTip\n\n\n\nIf your folder does not look like this at the end, stop and fix it before moving on."
   },
   {
     "objectID": "guides/setup_python_uv_vscode.html#phase-1-install-required-tools",
     "href": "guides/setup_python_uv_vscode.html#phase-1-install-required-tools",
-    "title": "Course Setup Guide: Python, uv, and VS Code",
+    "title": "Setup Guide: Python, uv, and VS Code",
     "section": "Phase 1 — Install Required Tools",
-    "text": "Phase 1 — Install Required Tools\n\n1. Install Python (3.xx)\nThis course works with Python 3.12 or higher.\nExamples below use Python 3.13.\n\n\n\n\n\n\nImportant\n\n\n\nIf you already have Python installed, you still need to verify the version and that it runs from the terminal.\n\n\n\nmacOS\n\nDownload Python from https://www.python.org\n\nRun the installer (accept defaults)\n\nVerify in Terminal:\n\npython3 --version\npip3 --version\n\n\nWindows\n\nDownload Python from https://www.python.org\n\nCheck “Add Python to PATH” during install\n\nVerify in PowerShell:\n\npython --version\npip --version\n\n\n\n\n\n\nWarning\n\n\n\nIf python or pip is “not recognized,” restart your terminal first.\nIf it still fails, Python was not added to PATH.\n\n\n\n\n\n\n2. Install uv\nuv manages your project, environment, and packages.\n\n\n\n\n\n\nNote\n\n\n\nDo not install uv using plain pip install uv.\nModern systems intentionally block this to protect your Python installation.\n\n\n\nmacOS\n\nOption A — Homebrew (if you already use it)\nbrew install uv\nuv --version\n\n\nOption B — pipx (no Homebrew required)\npython3 -m pip install --user pipx\npython3 -m pipx ensurepath\nRestart your terminal, then:\npipx install uv\nuv --version\n\n\n\n\nWindows\n\nOption A — winget\nwinget install uv\nuv --version\n\n\nOption B — pipx\npython -m pip install --user pipx\npython -m pipx ensurepath\npipx install uv\nuv --version\n\n\n\n\n\n\nTip\n\n\n\nIf uv is “not found,” close and reopen your terminal.\nThis fixes most PATH-related issues.\n\n\n\n\n\n\n\n3. Install VS Code\n\nDownload from https://code.visualstudio.com\n\nInstall using defaults\n\nOn Windows, check Add to PATH\n\nOpen VS Code\n\n\nInstall the Python extension\n\nExtensions → search Python\nInstall Python (by Microsoft)\n\n\n\n\n\n\n\nImportant\n\n\n\nVS Code will not work correctly for Python until the Python extension is installed."
+    "text": "Phase 1 — Install Required Tools\n\n1. Install Python (3.xx)\nThis text works with Python 3.12 or higher.\nExamples below use Python 3.13.\n\n\n\n\n\n\nImportant\n\n\n\nIf you already have Python installed, you still need to verify the version and that it runs from the terminal.\n\n\n\nmacOS\n\nDownload Python from https://www.python.org\n\nRun the installer (accept defaults)\n\nVerify in Terminal:\n\npython3 --version\npip3 --version\n\n\nWindows\n\nDownload Python from https://www.python.org\n\nCheck “Add Python to PATH” during install\n\nVerify in PowerShell:\n\npython --version\npip --version\n\n\n\n\n\n\nWarning\n\n\n\nIf python or pip is “not recognized,” restart your terminal first.\nIf it still fails, Python was not added to PATH.\n\n\n\n\n\n\n2. Install uv\nuv manages your project, environment, and packages.\n\n\n\n\n\n\nNote\n\n\n\nDo not install uv using plain pip install uv.\nModern systems intentionally block this to protect your Python installation.\n\n\n\nmacOS\n\nOption A — Homebrew (if you already use it)\nbrew install uv\nuv --version\n\n\nOption B — pipx (no Homebrew required)\npython3 -m pip install --user pipx\npython3 -m pipx ensurepath\nRestart your terminal, then:\npipx install uv\nuv --version\n\n\n\n\nWindows\n\nOption A — winget\nwinget install uv\nuv --version\n\n\nOption B — pipx\npython -m pip install --user pipx\npython -m pipx ensurepath\npipx install uv\nuv --version\n\n\n\n\n\n\nTip\n\n\n\nIf uv is “not found,” close and reopen your terminal.\nThis fixes most PATH-related issues.\n\n\n\n\n\n\n\n3. Install VS Code\n\nDownload from https://code.visualstudio.com\n\nInstall using defaults\n\nOn Windows, check Add to PATH\n\nOpen VS Code\n\n\nInstall the Python extension\n\nExtensions → search Python\nInstall Python (by Microsoft)\n\n\n\n\n\n\n\nImportant\n\n\n\nVS Code will not work correctly for Python until the Python extension is installed."
   },
   {
-    "objectID": "guides/setup_python_uv_vscode.html#phase-2-create-your-course-project",
-    "href": "guides/setup_python_uv_vscode.html#phase-2-create-your-course-project",
-    "title": "Course Setup Guide: Python, uv, and VS Code",
-    "section": "Phase 2 — Create Your Course Project",
-    "text": "Phase 2 — Create Your Course Project\n\n4. Create a project folder\nChoose a location (Documents recommended).\n\nmacOS\nmkdir -p ~/Documents/CLASS_FOLDER\ncd ~/Documents/CLASS_FOLDER\n\n\nWindows\nmkdir $HOME\\Documents\\CLASS_FOLDER\ncd $HOME\\Documents\\CLASS_FOLDER\n\n\n\n\n\n\nNote\n\n\n\nAvoid spaces in folder names.\nUse letters, numbers, and hyphens only.\n\n\n\n\n\n\n5. Initialize the project\nuv init\nuv venv\nYou should now see: - pyproject.toml - .venv/\n\n\n\n\n\n\nWarning\n\n\n\nIf you do not see .venv, you are not in the correct folder.\n\n\n\n\n\n6. Add a test package\nuv add rich\n\n\n\n\n\n\nTip\n\n\n\nUsing uv add both installs the package and records it in pyproject.toml.\n\n\n\n\n\n7. Create a test file\nCreate hello.py:\nfrom rich import print\nprint(\"[bold green]Hello from Python + uv + VS Code![/bold green]\")"
+    "objectID": "guides/setup_python_uv_vscode.html#phase-2-create-your-project",
+    "href": "guides/setup_python_uv_vscode.html#phase-2-create-your-project",
+    "title": "Setup Guide: Python, uv, and VS Code",
+    "section": "Phase 2 — Create Your Project",
+    "text": "Phase 2 — Create Your Project\n\n4. Create a project folder\nChoose a location (Documents recommended).\n\nmacOS\nmkdir -p ~/Documents/CLASS_FOLDER\ncd ~/Documents/CLASS_FOLDER\n\n\nWindows\nmkdir $HOME\\Documents\\CLASS_FOLDER\ncd $HOME\\Documents\\CLASS_FOLDER\n\n\n\n\n\n\nNote\n\n\n\nAvoid spaces in folder names.\nUse letters, numbers, and hyphens only.\n\n\n\n\n\n\n5. Initialize the project\nuv init\nuv venv\nYou should now see: - pyproject.toml - .venv/\n\n\n\n\n\n\nWarning\n\n\n\nIf you do not see .venv, you are not in the correct folder.\n\n\n\n\n\n6. Add a test package\nuv add rich\n\n\n\n\n\n\nTip\n\n\n\nUsing uv add both installs the package and records it in pyproject.toml.\n\n\n\n\n\n7. Create a test file\nCreate hello.py:\nfrom rich import print\nprint(\"[bold green]Hello from Python + uv + VS Code![/bold green]\")"
   },
   {
     "objectID": "guides/setup_python_uv_vscode.html#phase-3-connect-vs-code-to-the-project",
     "href": "guides/setup_python_uv_vscode.html#phase-3-connect-vs-code-to-the-project",
-    "title": "Course Setup Guide: Python, uv, and VS Code",
+    "title": "Setup Guide: Python, uv, and VS Code",
     "section": "Phase 3 — Connect VS Code to the Project",
     "text": "Phase 3 — Connect VS Code to the Project\n\n8. Open the folder in VS Code\n\nFile → Open Folder…\nSelect CLASS_FOLDER\n\n\n\n\n\n\n\nImportant\n\n\n\nOpen the folder, not just the Python file.\nVS Code needs the folder to find .venv.\n\n\n\n\n\n9. Select the Python interpreter\n\nCommand Palette\n\nmacOS: Cmd + Shift + P\n\nWindows: Ctrl + Shift + P\n\nChoose Python: Select Interpreter\nSelect the interpreter inside .venv\n\n\n\n\n\n\n\nWarning\n\n\n\nThe wrong interpreter is the #1 cause of “ModuleNotFoundError.”"
   },
   {
     "objectID": "guides/setup_python_uv_vscode.html#phase-4-run-code-choose-one-style",
     "href": "guides/setup_python_uv_vscode.html#phase-4-run-code-choose-one-style",
-    "title": "Course Setup Guide: Python, uv, and VS Code",
+    "title": "Setup Guide: Python, uv, and VS Code",
     "section": "Phase 4 — Run Code (Choose One Style)",
     "text": "Phase 4 — Run Code (Choose One Style)\nYou only need one of the following approaches.\nPick one and use it consistently.\n\n\nOption A — Activation style (recommended for beginners)\n\nmacOS\nsource .venv/bin/activate\npython hello.py\n\n\nWindows\n. .\\.venv\\Scripts\\Activate.ps1\npython hello.py\nIf PowerShell blocks activation:\nSet-ExecutionPolicy -Scope CurrentUser RemoteSigned\n\n\n\n\n\n\nNote\n\n\n\nThis setting applies only to your user account\nand is commonly required for Python environments.\n\n\n\n\n\n\nOption B — No activation (uv-managed)\nuv run python hello.py\n\n\n\n\n\n\nTip\n\n\n\nThis avoids activation entirely and is often easier on Windows."
   },
   {
     "objectID": "guides/setup_python_uv_vscode.html#troubleshooting",
     "href": "guides/setup_python_uv_vscode.html#troubleshooting",
-    "title": "Course Setup Guide: Python, uv, and VS Code",
+    "title": "Setup Guide: Python, uv, and VS Code",
     "section": "Troubleshooting",
     "text": "Troubleshooting\n\n“ModuleNotFoundError”\n\n\n\n\n\n\nWarning\n\n\n\nThis almost always means Python is running outside the project environment.\n\n\nChecklist: - VS Code interpreter is set to .venv - You are in the project folder - You activated .venv or used uv run\n\n\n\n“uv: command not found”\n\nRestart your terminal\nRe-run pipx ensurepath (pipx installs)\n\n\n\n\nFinal checkpoint\n\n\n\n\n\n\nImportant\n\n\n\nDo not move on until all of the following work.\n\n\n\npython --version\nuv --version\nhello.py runs successfully\nVS Code shows the .venv interpreter"
   },
@@ -711,14 +711,14 @@
     "href": "guides/vscode_update_stability.html",
     "title": "Locking VS Code Updates for a Stable Semester",
     "section": "",
-    "text": "OPTIONAL! This guide and these steps are optional. I would suggest attempting this if you are relatively computer savy. If not, you should skip it. The consequences for not locking down surpise updates are not that severe. Some of the code I run might look different to you, minor changes in behavior.\n\nThis guide walks you through a one-time configuration that prevents surprise changes in Visual Studio Code during the semester:\n\nDisabling automatic VS Code updates\nDisabling automatic extension updates\nInstalling the Python extension (Microsoft)\nVerifying your Python interpreter selection\nConfirming everything still runs normally\n\n\n\n\n\n\n\nNote\n\n\n\nFollow this top-to-bottom, in order.\nMost problems happen when settings are changed in the wrong place or only partially applied. Again, don’t attempt this if you are not very comfortable problem solving on a PC or MAC.\n\n\n\n\n\nThis guide assumes you can:\n\nopen VS Code\n\nopen a terminal (Mac Terminal / Windows PowerShell)\n\ncopy/paste text\n\nsave a file\n\n\n\n\n\nBy the end of this guide/walkthrough, you should have:\n\nVS Code configured to only update when you choose\nExtensions configured to only update when you choose\nThe Python extension installed\nA quick health check confirming Python runs\n\n\n\n\n\n\n\nTip\n\n\n\nIf you are working in a class project folder, you can apply these settings at the workspace level so the course environment behaves consistently in that folder."
+    "text": "OPTIONAL! This guide and these steps are optional. I would suggest attempting this if you are relatively computer savy. If not, you should skip it. The consequences for not locking down surpise updates are not that severe. Some of the code I run might look different to you, minor changes in behavior.\n\nThis guide walks you through a one-time configuration that prevents surprise changes in Visual Studio Code during the semester:\n\nDisabling automatic VS Code updates\nDisabling automatic extension updates\nInstalling the Python extension (Microsoft)\nVerifying your Python interpreter selection\nConfirming everything still runs normally\n\n\n\n\n\n\n\nNote\n\n\n\nFollow this top-to-bottom, in order.\nMost problems happen when settings are changed in the wrong place or only partially applied. Again, don’t attempt this if you are not very comfortable problem solving on a PC or MAC.\n\n\n\n\n\nThis guide assumes you can:\n\nopen VS Code\n\nopen a terminal (Mac Terminal / Windows PowerShell)\n\ncopy/paste text\n\nsave a file\n\n\n\n\n\nBy the end of this guide/walkthrough, you should have:\n\nVS Code configured to only update when you choose\nExtensions configured to only update when you choose\nThe Python extension installed\nA quick health check confirming Python runs\n\n\n\n\n\n\n\nTip\n\n\n\nIf you are working in a class project folder, you can apply these settings at the workspace level so the environment behaves consistently in that folder."
   },
   {
     "objectID": "guides/vscode_update_stability.html#overview",
     "href": "guides/vscode_update_stability.html#overview",
     "title": "Locking VS Code Updates for a Stable Semester",
     "section": "",
-    "text": "OPTIONAL! This guide and these steps are optional. I would suggest attempting this if you are relatively computer savy. If not, you should skip it. The consequences for not locking down surpise updates are not that severe. Some of the code I run might look different to you, minor changes in behavior.\n\nThis guide walks you through a one-time configuration that prevents surprise changes in Visual Studio Code during the semester:\n\nDisabling automatic VS Code updates\nDisabling automatic extension updates\nInstalling the Python extension (Microsoft)\nVerifying your Python interpreter selection\nConfirming everything still runs normally\n\n\n\n\n\n\n\nNote\n\n\n\nFollow this top-to-bottom, in order.\nMost problems happen when settings are changed in the wrong place or only partially applied. Again, don’t attempt this if you are not very comfortable problem solving on a PC or MAC.\n\n\n\n\n\nThis guide assumes you can:\n\nopen VS Code\n\nopen a terminal (Mac Terminal / Windows PowerShell)\n\ncopy/paste text\n\nsave a file\n\n\n\n\n\nBy the end of this guide/walkthrough, you should have:\n\nVS Code configured to only update when you choose\nExtensions configured to only update when you choose\nThe Python extension installed\nA quick health check confirming Python runs\n\n\n\n\n\n\n\nTip\n\n\n\nIf you are working in a class project folder, you can apply these settings at the workspace level so the course environment behaves consistently in that folder."
+    "text": "OPTIONAL! This guide and these steps are optional. I would suggest attempting this if you are relatively computer savy. If not, you should skip it. The consequences for not locking down surpise updates are not that severe. Some of the code I run might look different to you, minor changes in behavior.\n\nThis guide walks you through a one-time configuration that prevents surprise changes in Visual Studio Code during the semester:\n\nDisabling automatic VS Code updates\nDisabling automatic extension updates\nInstalling the Python extension (Microsoft)\nVerifying your Python interpreter selection\nConfirming everything still runs normally\n\n\n\n\n\n\n\nNote\n\n\n\nFollow this top-to-bottom, in order.\nMost problems happen when settings are changed in the wrong place or only partially applied. Again, don’t attempt this if you are not very comfortable problem solving on a PC or MAC.\n\n\n\n\n\nThis guide assumes you can:\n\nopen VS Code\n\nopen a terminal (Mac Terminal / Windows PowerShell)\n\ncopy/paste text\n\nsave a file\n\n\n\n\n\nBy the end of this guide/walkthrough, you should have:\n\nVS Code configured to only update when you choose\nExtensions configured to only update when you choose\nThe Python extension installed\nA quick health check confirming Python runs\n\n\n\n\n\n\n\nTip\n\n\n\nIf you are working in a class project folder, you can apply these settings at the workspace level so the environment behaves consistently in that folder."
   },
   {
     "objectID": "guides/vscode_update_stability.html#phase-1-make-vs-code-updates-manual",
@@ -739,7 +739,7 @@
     "href": "guides/vscode_update_stability.html#phase-3-interpreter-consistency-common-hidden-source-of-errors",
     "title": "Locking VS Code Updates for a Stable Semester",
     "section": "Phase 3 — Interpreter Consistency (Common “Hidden” Source of Errors)",
-    "text": "Phase 3 — Interpreter Consistency (Common “Hidden” Source of Errors)\n\n5. Select the correct Python interpreter\nEven if VS Code is stable, your code can still fail if VS Code uses the wrong interpreter.\n\nOpen the Command Palette\n\nmacOS: Cmd + Shift + P\n\nWindows: Ctrl + Shift + P\n\n\nChoose: Python: Select Interpreter\nSelect the interpreter you want (The course suggests a UV solution):\n\nSystem Python (if required), or\nA project environment interpreter (commonly a .venv folder)\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThe wrong interpreter is the #1 cause of: - ModuleNotFoundError - “package not found” - code working in terminal but not in VS Code (or vice versa)\n\n\n\n\n\n6. Quick visual check (bottom-right)\nLook at the bottom-right corner of VS Code.\n\nYou should see a Python version + environment name\nIf you click it, it should show the interpreter you selected"
+    "text": "Phase 3 — Interpreter Consistency (Common “Hidden” Source of Errors)\n\n5. Select the correct Python interpreter\nEven if VS Code is stable, your code can still fail if VS Code uses the wrong interpreter.\n\nOpen the Command Palette\n\nmacOS: Cmd + Shift + P\n\nWindows: Ctrl + Shift + P\n\n\nChoose: Python: Select Interpreter\nSelect the interpreter you want (This text suggests a UV solution):\n\nSystem Python (if required), or\nA project environment interpreter (commonly a .venv folder)\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThe wrong interpreter is the #1 cause of: - ModuleNotFoundError - “package not found” - code working in terminal but not in VS Code (or vice versa)\n\n\n\n\n\n6. Quick visual check (bottom-right)\nLook at the bottom-right corner of VS Code.\n\nYou should see a Python version + environment name\nIf you click it, it should show the interpreter you selected"
   },
   {
     "objectID": "guides/vscode_update_stability.html#phase-4-manual-updates",
@@ -749,11 +749,11 @@
     "text": "Phase 4 — Manual Updates\n\n7. Updating VS Code (manual)\n\nWindows / macOS:\nHelp → Check for Updates\n\n\n\n\n\n\n\nNote\n\n\n\nDo not update VS Code right before an exam, That may lead to unexpectected and frustrating changes to your working environment.\n\n\n\n\n\n8. Updating extensions (manual)\n\nOpen Extensions\nClick the … menu in the Extensions panel\nChoose Check for Updates\nUpdate only what you need"
   },
   {
-    "objectID": "guides/vscode_update_stability.html#optional-apply-these-settings-to-a-course-workspace-folder",
-    "href": "guides/vscode_update_stability.html#optional-apply-these-settings-to-a-course-workspace-folder",
+    "objectID": "guides/vscode_update_stability.html#optional-apply-these-settings-to-a-workspace-folder",
+    "href": "guides/vscode_update_stability.html#optional-apply-these-settings-to-a-workspace-folder",
     "title": "Locking VS Code Updates for a Stable Semester",
-    "section": "Optional: Apply These Settings to a Course Workspace Folder",
-    "text": "Optional: Apply These Settings to a Course Workspace Folder\nIf you have a course project folder (recommended), you can apply settings to that folder only.\n\nWorkspace settings file\nInside your project folder, create:\n.vscode/settings.json\nThen paste the same settings into that file:\n{\n  \"update.mode\": \"manual\",\n  \"extensions.autoUpdate\": false,\n  \"extensions.autoCheckUpdates\": false\n}\n\n\n\n\n\n\nTip\n\n\n\nWorkspace settings are helpful because they travel with the project folder.\nUser settings apply to all VS Code projects on your machine."
+    "section": "Optional: Apply These Settings to a Workspace Folder",
+    "text": "Optional: Apply These Settings to a Workspace Folder\nIf you have a project folder (recommended), you can apply settings to that folder only.\n\nWorkspace settings file\nInside your project folder, create:\n.vscode/settings.json\nThen paste the same settings into that file:\n{\n  \"update.mode\": \"manual\",\n  \"extensions.autoUpdate\": false,\n  \"extensions.autoCheckUpdates\": false\n}\n\n\n\n\n\n\nTip\n\n\n\nWorkspace settings are helpful because they travel with the project folder.\nUser settings apply to all VS Code projects on your machine."
   },
   {
     "objectID": "guides/vscode_update_stability.html#troubleshooting",
@@ -772,78 +772,78 @@
   {
     "objectID": "guides/terminal_powershell_basics.html",
     "href": "guides/terminal_powershell_basics.html",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "",
-    "text": "Many students in this course have never used the terminal (Mac) or PowerShell (Windows) before.\nThat is completely normal.\nThis short guide teaches only what you need to successfully complete the course setup and run Python code later.\nYou do not need to memorize commands or understand how your computer works internally.\nYou just need to be comfortable running a small number of commands and recognizing when something worked."
+    "text": "Many people have never used the terminal (Mac) or PowerShell (Windows) before.\nThat is completely normal.\nThis short guide teaches only what you need to successfully complete the setup and run Python code later. It is not a complete rundown of this interface.\nYou do not need to memorize commands or understand how your computer works internally.\nYou just need to be comfortable running a small number of commands and recognizing when something worked."
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#why-this-guide-exists",
     "href": "guides/terminal_powershell_basics.html#why-this-guide-exists",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "",
-    "text": "Many students in this course have never used the terminal (Mac) or PowerShell (Windows) before.\nThat is completely normal.\nThis short guide teaches only what you need to successfully complete the course setup and run Python code later.\nYou do not need to memorize commands or understand how your computer works internally.\nYou just need to be comfortable running a small number of commands and recognizing when something worked."
+    "text": "Many people have never used the terminal (Mac) or PowerShell (Windows) before.\nThat is completely normal.\nThis short guide teaches only what you need to successfully complete the setup and run Python code later. It is not a complete rundown of this interface.\nYou do not need to memorize commands or understand how your computer works internally.\nYou just need to be comfortable running a small number of commands and recognizing when something worked."
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#what-the-terminal-powershell-is-plain-language",
     "href": "guides/terminal_powershell_basics.html#what-the-terminal-powershell-is-plain-language",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "What the terminal / PowerShell is (plain language)",
     "text": "What the terminal / PowerShell is (plain language)\nThink of the terminal as:\n\nA text-based way to tell your computer exactly what to do, step by step.\n\nInstead of clicking buttons, you:\n- type a command\n- press Enter\n- read the result\nThe terminal:\n- works inside a folder\n- runs commands in order\n- shows errors immediately when something goes wrong"
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#what-this-guide-assumes-and-teaches",
     "href": "guides/terminal_powershell_basics.html#what-this-guide-assumes-and-teaches",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "What this guide assumes (and teaches)",
     "text": "What this guide assumes (and teaches)\nBy the end of this guide, you should be able to:\n\nopen Terminal (Mac) or PowerShell (Windows)\n\ntype or paste a command\n\nrun a command\n\nknow whether it worked\n\nknow which folder you are in\n\nmove into a different folder"
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#part-a-opening-the-terminal",
     "href": "guides/terminal_powershell_basics.html#part-a-opening-the-terminal",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "Part A — Opening the terminal",
-    "text": "Part A — Opening the terminal\n\nmacOS: Open Terminal\nYou have two common options:\n\nOption 1: Spotlight (recommended)\n\nPress Command + Space\n\nType Terminal\n\nPress Enter\n\n\n\nOption 2: Applications folder\n\nApplications → Utilities → Terminal\n\n\n\n\n\nWindows: Open PowerShell\n\nOption 1: Start Menu (recommended)\n\nClick Start\n\nType PowerShell\n\nOpen Windows PowerShell or Windows Terminal\n\n\n\nOption 2: Right-click menu (sometimes available)\n\nRight-click in a folder\n\nChoose Open in Terminal or Open PowerShell here\n\n\n\n\n\n\n\n\nNote\n\n\n\nFor this course, Terminal (Mac) and PowerShell (Windows) are equivalent.\nAll commands will be clearly labeled for your system."
+    "text": "Part A — Opening the terminal\n\nmacOS: Open Terminal\nYou have two common options:\n\nOption 1: Spotlight (recommended)\n\nPress Command + Space\n\nType Terminal\n\nPress Enter\n\n\n\nOption 2: Applications folder\n\nApplications → Utilities → Terminal\n\n\n\n\n\nWindows: Open PowerShell\n\nOption 1: Start Menu (recommended)\n\nClick Start\n\nType PowerShell\n\nOpen Windows PowerShell or Windows Terminal\n\n\n\nOption 2: Right-click menu (sometimes available)\n\nRight-click in a folder\n\nChoose Open in Terminal or Open PowerShell here"
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#part-b-what-you-see-when-it-opens",
     "href": "guides/terminal_powershell_basics.html#part-b-what-you-see-when-it-opens",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "Part B — What you see when it opens",
     "text": "Part B — What you see when it opens\nWhen the terminal opens, you will see:\n- a block of text\n- a blinking cursor\nExample (Mac):\nusername@computer-name ~ %\nExample (Windows):\nPS C:\\Users\\username&gt;\nThis line is called the prompt.\nIt tells you:\n- who you are\n- which computer you are on\n- which folder you are currently in\n\n\nThe most important rule\n\n\n\n\n\n\nImportant\n\n\n\nCommands run in the current folder.\nIf you are in the wrong folder, commands will fail or create files in the wrong place."
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#part-c-running-commands",
     "href": "guides/terminal_powershell_basics.html#part-c-running-commands",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "Part C — Running commands",
-    "text": "Part C — Running commands\n\nHow to run a command\n\nClick in the terminal window\nType (or paste) a command\nPress Enter\n\nExample:\npython --version\nThe computer will respond immediately.\n\n\n\nCopying and pasting commands\n\nMac: Cmd + C (copy), Cmd + V (paste)\nWindows: Ctrl + C (copy), Ctrl + V (paste)\n\n\n\n\n\n\n\nTip\n\n\n\nIt is perfectly fine to copy and paste commands from course materials.\nThis is not cheating; it is standard practice.\n\n\n\n\n\nHow to tell if a command worked\nA command usually worked if:\n- no error message appears\n- you see output (text) that looks reasonable\n- the prompt returns and waits for the next command\nExample of success:\nPython 3.13.1\n\n\n\nHow to tell if a command failed\nA command likely failed if: - you see words like error, not found, or command not recognized\n- the output looks red or alarming\n- nothing happened and the prompt did not return\nExample of failure:\npython : The term 'python' is not recognized\nWhen this happens:\n- stop\n- read the message\n- do not keep running commands blindly"
+    "text": "Part C — Running commands\n\nHow to run a command\n\nClick in the terminal window\nType (or paste) a command\nPress Enter\n\nExample:\npython --version\nThe computer will respond immediately.\n\n\n\nCopying and pasting commands\n\nMac: Cmd + C (copy), Cmd + V (paste)\nWindows: Ctrl + C (copy), Ctrl + V (paste)\n\n\n\n\n\n\n\nTip\n\n\n\nIt is perfectly fine to copy and paste commands, it is not the way everyone learns, but it can be a great way to just get started. But becomew an expert like this. Just a solid user.\n\n\n\n\n\nHow to tell if a command worked\nA command usually worked if:\n- no error message appears\n- you see output (text) that looks reasonable\n- the prompt returns and waits for the next command\nExample of success:\nPython 3.13.1\n\n\n\nHow to tell if a command failed\nA command likely failed if: - you see words like error, not found, or command not recognized\n- the output looks red or alarming\n- nothing happened and the prompt did not return\nExample of failure:\npython : The term 'python' is not recognized\nWhen this happens:\n- stop\n- read the message\n- do not keep running commands blindly"
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#part-d-where-am-i-folders",
     "href": "guides/terminal_powershell_basics.html#part-d-where-am-i-folders",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "Part D — Where am I? (folders)",
     "text": "Part D — Where am I? (folders)\n\nCheck your current folder\n\nMac\npwd\n\n\nWindows\ncd\nThis prints the folder you are currently in.\n\n\n\n\nList files in the current folder\n\nMac\nls\n\n\nWindows\ndir\nYou should recognize file names you expect to see."
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#part-e-moving-between-folders",
     "href": "guides/terminal_powershell_basics.html#part-e-moving-between-folders",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "Part E — Moving between folders",
     "text": "Part E — Moving between folders\n\nChange folders (cd)\ncd means change directory.\n\nExample (Mac)\ncd Documents\n\n\nExample (Windows)\ncd Documents\n\n\n\n\nMove into a specific folder\ncd CLASS_FOLDER\n(Replace CLASS_FOLDER with the actual folder name.)\n\n\n\nMove up one level\ncd ..\nThis is useful if you accidentally went into the wrong folder.\n\n\n\n\n\n\n\nWarning\n\n\n\nFolder names must match exactly, including capitalization.\nIf a folder name has spaces, it is harder to use in the terminal."
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#part-f-stopping-a-command",
     "href": "guides/terminal_powershell_basics.html#part-f-stopping-a-command",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "Part F — Stopping a command",
     "text": "Part F — Stopping a command\nIf a command appears to be stuck or running too long:\n\nPress Ctrl + C\n\nThis safely stops the command."
   },
   {
     "objectID": "guides/terminal_powershell_basics.html#part-g-common-beginner-mistakes-and-fixes",
     "href": "guides/terminal_powershell_basics.html#part-g-common-beginner-mistakes-and-fixes",
-    "title": "Terminal & PowerShell Basics for This Course",
+    "title": "Terminal & PowerShell Basics for This Text",
     "section": "Part G — Common beginner mistakes (and fixes)",
-    "text": "Part G — Common beginner mistakes (and fixes)\n\n“Nothing happened”\n\nDid you press Enter?\n\nIs the cursor still blinking?\n\n\n\n\n“Command not found”\n\nYou may have typed the command incorrectly\n\nYou may not have the software installed yet\n\nCheck spelling carefully\n\n\n\n\n“Permission denied” (Mac/Linux)\n\nThis usually means you are trying to modify a protected folder\n\nMove your project into Documents or your home folder\n\n\n\n\nI’m nervous I’ll break something\n\n\n\n\n\n\nImportant\n\n\n\nYou are very unlikely to damage your computer by running commands in this course.\n\n\nWe do not:\n- delete system files\n- modify protected locations\n- require administrator access\n\n\n\nFinal confidence check\nBefore moving on to the course setup guide, make sure you can:\n\nopen Terminal or PowerShell\nrun a command\nsee output\nmove into a folder\nstop a command with Ctrl + C\n\nIf you can do those things, you are ready."
+    "text": "Part G — Common beginner mistakes (and fixes)\n\n“Nothing happened”\n\nDid you press Enter?\n\nIs the cursor still blinking?\n\n\n\n\n“Command not found”\n\nYou may have typed the command incorrectly\n\nYou may not have the software installed yet\n\nCheck spelling carefully\n\n\n\n\n“Permission denied” (Mac/Linux)\n\nThis usually means you are trying to modify a protected folder\n\nMove your project into Documents or your home folder\n\n\n\n\nI’m nervous I’ll break something\n\n\n\n\n\n\nImportant\n\n\n\nYou are very unlikely to damage your computer by running commands in this guide.\n\n\nWe do not:\n- delete system files\n- modify protected locations\n- require administrator access\n\n\n\nFinal confidence check\nBefore moving on to the setup guide, make sure you can:\n\nopen Terminal or PowerShell\nrun a command\nsee output\nmove into a folder\nstop a command with Ctrl + C\n\nIf you can do those things, you are ready."
   }
 ]

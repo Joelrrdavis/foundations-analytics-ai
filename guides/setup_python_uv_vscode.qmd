@@ -1,10 +1,10 @@
 ---
-title: "Course Setup Guide: Python, uv, and VS Code"
+title: "Setup Guide: Python, uv, and VS Code"
 ---
 
 ## Overview
 
-This guide walks you through **everything required to get set up for this course**, end to end:
+This guide walks you through **everything required to get set up**, end to end:
 
 - Installing **Python**
 - Installing **uv**
@@ -56,7 +56,7 @@ If your folder does **not** look like this at the end, stop and fix it before mo
 
 ### 1. Install Python (3.xx)
 
-This course works with **Python 3.12 or higher**.  
+This text works with **Python 3.12 or higher**.  
 Examples below use **Python 3.13**.
 
 ::: {.callout-important}
@@ -169,7 +169,7 @@ VS Code will not work correctly for Python until the **Python extension** is ins
 
 ---
 
-## Phase 2 — Create Your Course Project
+## Phase 2 — Create Your Project
 
 ### 4. Create a project folder
 

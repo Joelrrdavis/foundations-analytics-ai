@@ -1,5 +1,5 @@
 ---
-title: "Using Google Colab for This Course"
+title: "Using Google Colab - Rapid Intro"
 ---
 
 ## Overview
@@ -21,7 +21,7 @@ Google Colab provides:
 
 - A hosted Python runtime (no setup required)  
 - Built-in Jupyter-like notebook interface  
-- Free GPU/TPU access (not required for this course but available)  
+- Free GPU/TPU access  
 - Integration with Google Drive  
 
 Colab notebooks use the `.ipynb` format, but you can also copy/paste Python code from `.py` files.
@@ -47,7 +47,7 @@ You will see a window prompting you to:
 
 1. Go to **File → New Notebook**.  
 2. A new notebook will open with a default Python environment.  
-3. You can copy/paste code from the course textbook or `.py` files.  
+3. You can copy/paste code from the textbook or `.py` files.  
 
 Use **Shift + Enter** to run a cell.
 
@@ -71,7 +71,7 @@ Use **Shift + Enter** to run a cell.
 Example:
 
 ```
-https://github.com/<your-username>/undergrad-ai-course
+https://github.com/<your-username>/undergrad-ai-text
 ```
 
 ---
@@ -148,4 +148,4 @@ Google Colab allows you to:
 - Work with Drive  
 - Download your work  
 
-It is a useful fallback or complementary environment for this course.
+It is a useful fallback or complementary environment for this text.
