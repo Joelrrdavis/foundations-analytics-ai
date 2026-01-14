@@ -21,7 +21,7 @@ Simulation also plays a foundational role in machine learning and AI, where synt
 Real datasets often suffer from limitations:
 
 - **Missing or incomplete data**
-- **Biased sampling and non-representative observations**
+- **Non-representative observations**
 - **Privacy restrictions or regulatory barriers**
 - **New systems lacking historical data**
 
