@@ -55,7 +55,7 @@ It is useful at this point to distinguish between **narrow AI** and broader noti
 ### Nested views of AI, machine learning, and deep learning
 
 <figure>
-  <img src="../assets/images/1_qmb_nested_ai.svg"
+  <img src="../assets/images/nested_ai.svg"
        alt="Conceptual diagram showing artificial intelligence as the broad category, with machine learning as a subset and deep learning as a further subset.">
   <figcaption>AI is often described as a broad category that contains machine learning methods, with deep learning as a further subset.</figcaption>
 </figure>
