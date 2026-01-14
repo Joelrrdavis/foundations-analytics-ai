@@ -5,11 +5,10 @@ title: "AI Systems: Data, Models, and Logic"
 ## Data, Models, and Logic: Core Components of AI Systems
 
 <figure>
-  <img src="../assets/images/1_core_system.svg"
+  <img src="/assets/images/nested_ai.svg">
        alt="Core AI system diagram showing a left-to-right flow: Data feeds into Model, Model feeds into Logic, and Logic triggers Action. Arrows indicate sequential flow from inputs to decisions.">
   <figcaption>An AI system is best understood as the interaction of data, a model, and decision logic—rather than as a model alone.</figcaption>
 </figure>
-
 
 ### Data
 
