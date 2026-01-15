@@ -86,9 +86,38 @@ pip --version
 ```
 
 ::: {.callout-warning}
-If `python` or `pip` is “not recognized,” restart your terminal first.  
+If `python` is “not recognized,” restart your terminal first.  
 If it still fails, Python was not added to PATH.
+
+If `pip` is not recognized but `python -m pip` works, this is normal on Windows. See more below
 :::
+
+On some Windows systems—especially with newer Python versions (3.13+)—you may see this behavior:
+
+```bash
+python --version
+# works
+
+pip --version
+# pip is not recognized as a command
+```
+
+This does not mean Python or pip is broken. What’s happening is this:  
+- Python is correctly installed
+- pip exists inside Python
+- The pip launcher is not on your PATH
+- You can confirm pip is installed by running:
+
+```bash 
+python -m pip --version
+```
+
+Later in the course when you are installing new packages you can use pio through python by following this template:
+
+```bash
+python -m pip install <package>
+python -m pip --version
+```
 
 ---
 
